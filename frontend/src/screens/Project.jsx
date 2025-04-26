@@ -181,8 +181,10 @@ const Project = () => {
     // Removed appendIncomingMessage and appendOutgoingMessage functions
 
     function scrollToBottom() {
-        messageBox.current.scrollTop = messageBox.current.scrollHeight
+        messageBox.current.scrollTop = messageBox.current.scrollHeigh
+        
     }
+    
 
     return (
         <main className='h-screen w-screen flex'>
